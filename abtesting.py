@@ -210,6 +210,8 @@ def data_to_num_list(s):
     '''
   return list(map(float, s.split()))
 
+
+print(perform_2_sample_t_test([17953,7894,11261,97614,7765,288296,26780,155241,28906,5869,3379,15730], [92242,3637,12649,6090,7427,11913,5631,4373,74053,11668,42939,4199]))
 # print("start")
 # # t_test 1:
 # a_t1_list = data_to_num_list(a1) 
